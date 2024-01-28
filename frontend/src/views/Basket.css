@@ -1,0 +1,57 @@
+.Basket{
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+    margin: auto;
+}
+
+.BasketContent {
+    padding: 50px;
+    row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Basket h2{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.Basket p{
+    width: 100%;    
+    line-height: 25px;
+    font-size: 18px;
+    font-weight:600;
+}
+.Basket button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#aad7ff ;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.Basket button:hover{   
+    background-color: #6ebcff;
+   }
+
+.Basket .order {
+    height: 50px;
+    width: 150px;    
+    border-style: none;
+    background-color: #aad7fa;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Basket .order:hover {
+    background-color: #6ebcff;
+}
